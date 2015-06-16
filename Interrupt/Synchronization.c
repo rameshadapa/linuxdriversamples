@@ -246,7 +246,7 @@ module_exit(Exit);
 MODULE_LICENSE("GPL");
 #endif
 
-#if 0
+#if 10
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
@@ -288,7 +288,7 @@ MODULE_LICENSE("GPL");
 
 #endif
 
-#if 1
+#if 0
 
 #include <linux/init.h>
 #include <linux/kernel.h>
