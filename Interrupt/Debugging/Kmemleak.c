@@ -11,7 +11,7 @@ static int __init Init(void)
 	a= kmalloc(1024, GFP_KERNEL);
 	b = kmalloc(1024, GFP_KERNEL);
 
-	kfree(b);
+//	kfree(b);
 	
 	return 0;
 

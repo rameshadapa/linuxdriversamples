@@ -69,7 +69,7 @@ MODULE_LICENSE("GPL");
 #endif
 
 
-#if 1
+#if 0
 
 #include <linux/init.h>
 #include <linux/module.h>

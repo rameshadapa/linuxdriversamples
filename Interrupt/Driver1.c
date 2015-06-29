@@ -9,8 +9,8 @@ int ctr_var= 0;
 irqreturn_t Ctr_handler (int n, void *p)
 {
 	printk("The handler is called \n");
-	++ctr_var;
-	schedule();
+//	++ctr_var;
+//	schedule();
 	return IRQ_HANDLED;
 }
 

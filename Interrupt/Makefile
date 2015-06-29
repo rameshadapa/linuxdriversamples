@@ -15,4 +15,7 @@ clean:
 #obj-m := Bus.o
 #obj-m:=scatterlist.o
 #obj-m := Misc.o
-obj-m := complete_driver.o
+#obj-m := complete_driver.o
+#obj-m := Module_K_JProbe.o
+#obj-m := Bitops.o
+obj-m := MM.o

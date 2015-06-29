@@ -2027,7 +2027,7 @@ return 0;
 #endif
 
 
-#if 1
+#if 0
 
 #include <stdio.h>
 #include <assert.h>
@@ -2037,6 +2037,37 @@ int main()
 
 //	assert(1);
 	assert(0);
+
+}
+
+#endif
+
+#if 0
+
+#include <stdio.h>
+
+
+int main()
+{
+
+
+char p[] = "Hello";
+
+printf(" %c \n", 108);
+return 0;
+}
+
+#endif
+
+#if 1
+
+#include <stdio.h>
+
+int main()
+{
+
+a();
+return 0;
 
 }
 
